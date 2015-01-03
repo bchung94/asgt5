@@ -1,0 +1,35 @@
+ply
+format ascii 1.0
+comment 3d geometric model
+element vertex 18
+property GLfloat x
+property GLfloat y
+property GLfloat z
+element face 6
+property list uint int vertex_indices
+end_header
+0.0 1.0 3.0
+-1.0 -1.0 2.0
+1.0 -1.0 2.0
+0.0 1.0 3.0
+1.0 -1.0 2.0
+1.0 -1.0 4.0
+0.0 1.0 3.0
+-1.0 -1.0 4.0
+1.0 -1.0 4.0
+0.0 1.0 3.0
+-1.0 -1.0 4.0
+-1.0 -1.0 2.0
+-1.0 -1.0 4.0
+-1.0 -1.0 2.0
+1.0 -1.0 2.0
+1.0 -1.0 2.0
+1.0 -1.0 4.0
+-1.0 -1.0 4.0
+3 0 1 2
+3 0 2 3
+3 0 3 4
+3 0 1 4
+3 2 3 4
+3 1 2 4
+
